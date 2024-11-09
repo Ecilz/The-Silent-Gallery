@@ -1,0 +1,68 @@
+/* Importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;700&display=swap');
+
+/* Styles généraux */
+body {
+    font-family: 'Roboto Serif', serif;
+    background-color: #2a2a2a;
+    color: #d4c6a4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #3a3a3a;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #d4c6a4;
+}
+
+/* Section principale */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url('../images/vintage-background.jpg') no-repeat center center/cover;
+}
+
+.hero-title {
+    font-size: 4rem;
+    color: #e0d6c4;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+}
+
+/* Sections de contenu */
+.content-section {
+    padding: 50px;
+    background-color: #3a3a3a;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+}
